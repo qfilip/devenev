@@ -36,7 +36,11 @@ local options = {
 }
 
 vim.opt.shortmess:append "c"
+
+-- neovide
 vim.g.neovide_cursor_animation_length = 0
+vim.g.neovide_scroll_animation_length = 0.1
+
 
 for k, v in pairs(options) do
   vim.opt[k] = v
