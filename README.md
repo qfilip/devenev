@@ -31,7 +31,7 @@ development environment setup
 
     # there are 2 Paq package managers (find them on Github)
     # run command to clone one
-    git clone https://github.com/savq/paq-nvim.git "$env:LOCALAPPDATA\nvim-data\site\pack\paqs\start\paq-nvim"
+    git clone https://github.com/savq/paq-nvim.git %LOCALAPPDATA%\nvim-data\site\pack\paqs\start\paq-nvim
     # run :NeovideRegisterRightClick to register neovide in context menu
     # run :PaqInstall command within neovim to install packegs
     ```
