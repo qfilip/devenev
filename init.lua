@@ -1,4 +1,3 @@
+require("phq.paq")
 require("phq.options")
 require("phq.keymaps")
--- require("phq.lazy")
-require("phq.paq")
