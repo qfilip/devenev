@@ -28,6 +28,9 @@ development environment setup
     scoop install extras/lazygit
     scoop install main/neovim
     scoop install extras/neovide
+
+    # run :NeovideRegisterRightClick to register neovide in context menu
+    # run :PaqInstall command within neovim to install packegs
     ```
 
 ## Terminal
