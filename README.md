@@ -4,26 +4,49 @@ development environment setup
 ## Package management
 
 - Install [scoop](https://scoop.sh)
+    ```
+    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+    irm get.scoop.sh | iex
+    ```
+
+- Basic packages
+    - common
+    ```
+    scoop install PSFzf
+    scoop install extras/rancher-desktop
+    scoop install extras/powertoys
+    ```
+
+    - neovim
+    ```
+    scoop install main/neovim
+    scoop install extras/neovide
+    scoop install main/make
+    scoop install main/mingw
+    scoop install main/ripgrep
+    scoop install main/python
+    scoop install nodejs-lts
+    scoop install extras/lazygit
+    ```
 
 ## Terminal
 
 ### Powershell Core
 
 - Setup
-
-    `scoop install main/pwsh`
+    ```
+    scoop install main/pwsh
     
-    Check if profile exists:
+    ## check if profile exists:
+    test-path $profile
 
-    `test-path $profile`
+    ## if false, set up new profile
+    New-Item -Path $profile -Type File -Force
+    
+    ## find profile path
+    $profile
 
-    If false, set up new profile
-
-    `New-Item -Path $profile -Type File -Force`
-
-    Find profile path
-
-    `$profile`
+    ```
 
 - Customize
 
