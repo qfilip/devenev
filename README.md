@@ -12,21 +12,22 @@ development environment setup
 - Basic packages
     - common
     ```
-    scoop install PSFzf
     scoop install extras/rancher-desktop
     scoop install extras/powertoys
     ```
 
     - neovim
     ```
-    scoop install main/neovim
-    scoop install extras/neovide
     scoop install main/make
     scoop install main/mingw
     scoop install main/ripgrep
     scoop install main/python
+    scoop install fzf
+    scoop install extras/psfzf
     scoop install nodejs-lts
     scoop install extras/lazygit
+    scoop install main/neovim
+    scoop install extras/neovide
     ```
 
 ## Terminal
