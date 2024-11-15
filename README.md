@@ -101,3 +101,11 @@ development environment setup
         Set-PSReadLineKeyHandler -Key Tab -ScriptBlock { Invoke-FzfTabCompletion }
         ```
 [source](https://www.damirscorner.com/blog/posts/20211119-PowerShellModulesForABetterCommandLine.html#:~:text=It%20integrates%20the%20well-known%20fuzzy%20finder%2C%20fzf%2C%20into,Tab%20enables%20fuzzy%20search%20for%20tab%20completion.%20)
+
+### Neovide
+
+Install Neovide:
+
+`scoop bucket add extras`
+
+Open Neovide and add it to the context menu with `:NeovideRegisterRightClick` command. Neovim configs are in `AppData/Local/nvim` (create if not present).
