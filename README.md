@@ -23,6 +23,7 @@ development environment setup
     scoop install main/ripgrep
     scoop install main/python
     scoop install fzf
+    scoop install rga
     scoop install extras/psfzf
     scoop install nodejs-lts
     scoop install extras/lazygit
