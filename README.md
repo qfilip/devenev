@@ -110,3 +110,18 @@ Install Neovide:
 `scoop bucket add extras`
 
 Open Neovide and add it to the context menu with `:NeovideRegisterRightClick` command. Neovim configs are in `AppData/Local/nvim` (create if not present).
+
+
+### VSCodium
+
+Enable marketplace by adding `product.json` at `C:\Users\{username}\AppData\Roaming\VSCodium\` and put in:
+```json
+{
+	"extensionsGallery": {
+	  "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+	  "itemUrl": "https://marketplace.visualstudio.com/items",
+	  "cacheUrl": "https://vscode.blob.core.windows.net/gallery/index",
+	  "controlUrl": ""
+	}
+}
+```
