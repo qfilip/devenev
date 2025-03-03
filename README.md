@@ -133,7 +133,7 @@ Enable marketplace by adding `product.json` at `C:\Users\{username}\AppData\Roam
 
 ### Warp Terminal
 
-You can ask Warp Terminal to add itself to context menu. It will generate the following script:
+You can ask Warp Terminal to add itself to context menu. It will generate the following script (just change `$warpPath` variable in it):
 ```
 <#
 .SYNOPSIS
