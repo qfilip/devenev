@@ -70,10 +70,10 @@ Windows Registry Editor Version 5.00
 ; Open files
 [HKEY_CLASSES_ROOT\*\shell\Open with VS Code]
 @="Edit with VS Code"
-"Icon"="C:\\Users\\Brandon\\scoop\\apps\\vscode\\current\\Code.exe,0"
+"Icon"="C:\\Users\\{username}\\scoop\\apps\\vscode\\current\\Code.exe,0"
 
 [HKEY_CLASSES_ROOT\*\shell\Open with VS Code\command]
-@="\"C:\\Users\\Brandon\\scoop\\apps\\vscode\\current\\Code.exe\" \"%1\""
+@="\"C:\\Users\\{username}\\scoop\\apps\\vscode\\current\\Code.exe\" \"%1\""
 
 ; This will make it appear when you right click ON a folder
 ; The "Icon" line can be removed if you don't want the icon to appear
