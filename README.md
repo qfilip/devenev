@@ -30,6 +30,7 @@ development environment setup
     scoop install main/neovim
     scoop install extras/neovide
     scoop install extras/warp-terminal
+    scoop install extras/freelens
 
     # there are 2 Paq package managers (find them on Github)
     # run command to clone one
